@@ -94,7 +94,31 @@
                       </div>
                     </div>
                   </div>
-                  
+                  <div class="col ">
+                    <div class="card" >                    
+                      <div class=" bg-black text-white p-3">
+                        <h5 class=" text-center fs-4 pt-2"><u>Budget</u></h5>
+                        
+                        <label for="fname" class=" fw-bold ">Per player:</label>
+                        <input id="per-player-field" type="number" min="0"  class=" form-control text-center bg-black text-white " value="1000"  ><br>
+                        <div class=" text-center button">
+                            <button id="calculate" class=" bg-primary py-2 text-white px-5 ">Calculate</button>
+                        </div><br>
+                        <h5>Player Expenses:   $<span id="player-expenses">5000</span></h5> 
+                        
+                            <label for="manager">Manager:</label>
+                            <input id="manager-expense" type="number" class=" form-control text-center bg-black text-white d-block " name="" value="2000">
+                            <label for="manager">Coach:</label>
+                            <input id="coach-expense" type="number" class=" form-control text-center bg-black text-white d-block " name="" value="4000"><br>
+                            <button id="calculate-total" class="bg-primary text-white py-2">Calculate Total</button>
+                        <br>
+                        <div class=" d-flex justify-content-between">
+                            <h6>Total</h6>
+                            <h5>$<span id="total-expense">11000</span></h5>
+                        </div>                    
+                      </div>
+                    </div>
+                  </div>
               </div>
         </section>
     </main>
