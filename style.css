@@ -1,0 +1,79 @@
+/* 
+font-family: 'Berkshire Swash', cursive;
+font-family: 'Poppins', sans-serif;
+ */
+#header {
+    background-color: black;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    margin-bottom: 100px;
+}
+#header h1{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 55px;
+    color: #ff5e19;
+}
+#header p {
+    font-family: 'Poppins', sans-serif;
+}
+#lionel-messi{
+    display: none;
+}
+#kylian-mbappe{
+    display: none;
+}
+#neymar-jr{
+    display: none;
+}
+#vítor-machado{
+    display: none;
+}
+#sergio-ramos{
+    display: none;
+}
+.color{
+    background-color: #151515;
+}
+.bg-images{
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.bg-goal {
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+    width: 200px;
+}
+#card{
+    margin-bottom: 100px;
+
+}
+
+u {
+    color: #ff5e19;
+}
+label{
+    font-size: 20px;
+}
+form button {
+    width: 100%;
+}
+button {
+    width: 100%;
+}
+footer{
+    background-color: #151515;
+}
+footer hr {   
+    border: 2px solid gray;
+}
+footer p {
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+}
