@@ -3,8 +3,10 @@ function getElementValueById(elementId){
     playerName.style.display = 'block'; 
     
 }
-function disable(element){
-    element.disabled = true; 
+
+
+function selectBtn(element){
+    element.disabled = true;   
 }
 
 
