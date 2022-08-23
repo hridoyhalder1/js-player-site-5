@@ -1,24 +1,34 @@
+function getElementValueById(elementId){
+    const playerName = document.getElementById(elementId);
+    playerName.style.display = 'block'; 
+    
+}
+function disable(element){
+    element.disabled = true; 
+}
+
+
 document.getElementById('button-1').addEventListener('click', function(){
-    const lionelMessi = document.getElementById('lionel-messi');
-    lionelMessi.style.display = 'block';
-    document.getElementById('button-1').disabled = true;
-   
+    getElementValueById('lionel-messi');
+    document.getElementById('button-1').className = 'color-change';
+    
+ 
 })
 document.getElementById('button-2').addEventListener('click', function(){
-    const neymarJr = document.getElementById('neymar-jr');
-    neymarJr.style.display = 'block';
+    getElementValueById('neymar-jr');
+    document.getElementById('button-2').className = 'color-change';
 })
 document.getElementById('button-3').addEventListener('click', function(){
-    const kylianMbappe = document.getElementById('kylian-mbappe');
-    kylianMbappe.style.display = 'block';
+    getElementValueById('kylian-mbappe');
+    document.getElementById('button-3').className = 'color-change';
 })
 document.getElementById('button-4').addEventListener('click', function(){
-    const vitorMachado = document.getElementById('vítor-machado');
-    vitorMachado.style.display = 'block';
+    getElementValueById('vítor-machado');
+    document.getElementById('button-4').className = 'color-change';
 })
 document.getElementById('button-5').addEventListener('click', function(){
-    const sergioRamos = document.getElementById('sergio-ramos');
-    sergioRamos.style.display = 'block';
+    getElementValueById('sergio-ramos');
+    document.getElementById('button-5').className = 'color-change';
 })
 
 // budget calculation
@@ -70,3 +80,5 @@ document.getElementById('calculate-total').addEventListener('click', function(){
     totalExpense.innerText = calculateTotal;
     
 })
+
+

@@ -37,6 +37,9 @@ font-family: 'Poppins', sans-serif;
 .color{
     background-color: #151515;
 }
+.color-change{
+    background-color: gray;
+}
 .bg-images{
     width: 300px;
     height: 450px;
